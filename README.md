@@ -44,7 +44,7 @@ install.packages(c("janeaustenr", "dplyr", "tidytext", "stringr", "tidyr", "ggpl
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/sentiment-analysis-jane-austen.git
+git clone https://github.com/AliAsifKurovi/sentiment-analysis-jane-austen.git
 cd sentiment-analysis-jane-austen
 ```
 
@@ -59,23 +59,24 @@ cd sentiment-analysis-jane-austen
 * `sentiment_analysis_using_R.R`: The main R script that performs all the steps, from text wrangling to visualization.
 * `README.md`: Documentation file for the project.
 
-
 ## Outputs
-### Sentiment Trajectory
-The sentiment trajectory plot shows how the sentiment changes over the text chunks (80 lines each) in the book "Sence and Sensiblity".
+### Sentiment Bar Chart
+The sentiment bar chart shows how the sentiment changes over the text chunks (80 lines each) in the book "Sense and Sensibility".
 
 ### Top Positive and Negative Words
-A bar chart visualizes the top 10 positive and negative words from Emma, based on their frequency.
+A bar chart visualizes the top 20 positive and negative words from Sense and Sensibility, based on their frequency.
 
 ### Word Clouds
 Two word clouds display the most frequent positive and negative words, emphasizing their relative importance.
 
 ## Example Visualizations
 #### Sentiment Trajectory
-![Sentiment Trajectory](path/to/sentiment_trajectory.png)
-#### Top Positive and Negative Word Clouds
-![Word Cloud Positive](path/to/wordcloud_positive.png)
-![Word Cloud Negative](path/to/wordcloud_negative.png)
+![Sentiment Trajectory](https://github.com/AliAsifKurovi/Sentiment-Analysis-of-Jane-Austen-s-Books/blob/main/Output%202.png)
+#### Top Positive and Negative Words
+![Positive and Nagative Words](https://github.com/AliAsifKurovi/Sentiment-Analysis-of-Jane-Austen-s-Books/blob/main/Output%201.png)
+#### Positive and Negative Word Clouds
+![Word Cloud Positive](https://github.com/AliAsifKurovi/Sentiment-Analysis-of-Jane-Austen-s-Books/blob/main/Output%204.png)
+![Word Cloud Negative](https://github.com/AliAsifKurovi/Sentiment-Analysis-of-Jane-Austen-s-Books/blob/main/Output%203.png)
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request if you want to add features or improve the project.
